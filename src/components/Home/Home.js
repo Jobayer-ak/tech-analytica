@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import useCustomerReviews from "../../hooks/customerReviews";
 import Reviews from "../Reviews/Reviews";
 import "./Home.css";
@@ -7,7 +8,11 @@ const Home = () => {
   const [reviews, setReviews] = useCustomerReviews();
   // console.log(reviews.length);
   const newRev = [...reviews];
-  console.log(newRev);
+  // console.log(newRev);
+
+  let navigate = useNavigate();
+
+  const handleButton = () => {};
 
   return (
     <section>
@@ -34,7 +39,9 @@ const Home = () => {
       <div className="reviews-part">
         {reviews.length > 0 ? <Reviews></Reviews> : "Not yet"}
 
-        <button className="btn btn-info">See All Reviews</button>
+        <button className="btn btn-info" onClick={() => navigate("/reviews")}>
+          See All Reviews
+        </button>
       </div>
     </section>
   );
