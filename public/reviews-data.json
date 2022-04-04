@@ -1,0 +1,44 @@
+[
+    {   
+        "id": 1,
+        "name": "user1",
+        "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
+        "img": 1,
+        "ratings": 5
+    },
+    {
+        "id": 2,
+        "name": "user2",
+        "rev":"This is awesome laptop. Its stylish outside and savage outsite!",
+        "img": 2,
+        "ratings": 4
+    },
+    {
+        "id": 3,
+        "name": "user3",
+        "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
+        "img": 3,
+        "ratings": 5
+    },
+    {
+        "id": 4,
+        "name": "user4",
+        "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
+        "img": 4,
+        "ratings": 5
+    },
+    {
+        "id": 5,
+        "name": "user5",
+        "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
+        "img": 5,
+        "ratings": 4
+    },
+    {
+        "id": 6,
+        "name": "user6",
+        "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
+        "img": 6,
+        "ratings": 5
+    }
+]

@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header/Header";
+import Navigation from "./components/Navigation/Navigation";
 import { Route, Router, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Reviews from "./components/Reviews/Reviews";
@@ -11,7 +11,7 @@ import Blogs from "./components/Blogs/Blog";
 function App() {
   return (
     <div className="App container">
-      <Header></Header>
+      <Navigation></Navigation>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>

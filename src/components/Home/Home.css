@@ -1,4 +1,26 @@
+
 .product-img img{
     width: 500px;
     border-radius: 5px;
+}
+.description{
+    margin-top: 60px;
+    padding: 20px 10px;
+    width: 60%;
+}
+.description h1{
+    font-size: 50px;
+}
+.description .first-heading{
+    color: green;
+
+}
+.description .second-heading{
+    color: blue;
+}
+.btn{
+    background: rgb(102, 162, 102);
+}
+.btn:hover{
+    background: rgb(99, 219, 99);
 }
