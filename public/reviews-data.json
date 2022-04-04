@@ -1,44 +1,44 @@
 [
     {   
         "id": 1,
-        "name": "user1",
+        "name": "Arron",
         "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
-        "img": 1,
+        "img": "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
         "ratings": 5
     },
     {
         "id": 2,
-        "name": "user2",
+        "name": "Bella",
         "rev":"This is awesome laptop. Its stylish outside and savage outsite!",
-        "img": 2,
+        "img": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ratings": 4
     },
     {
         "id": 3,
-        "name": "user3",
+        "name": "Alice",
         "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
-        "img": 3,
+        "img": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ratings": 5
     },
     {
         "id": 4,
-        "name": "user4",
+        "name": "Grace",
         "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
-        "img": 4,
+        "img": "https://images.unsplash.com/photo-1499887142886-791eca5918cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
         "ratings": 5
     },
     {
         "id": 5,
-        "name": "user5",
+        "name": "Bell",
         "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
-        "img": 5,
+        "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         "ratings": 4
     },
     {
         "id": 6,
-        "name": "user6",
+        "name": "Emma",
         "rev": "This is awesome laptop. Its stylish outside and savage outsite!",
-        "img": 6,
+        "img": "https://images.unsplash.com/photo-1484863137850-59afcfe05386?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         "ratings": 5
     }
 ]

@@ -8,11 +8,13 @@ const Reviews = () => {
   // console.log(reviews);
 
   return (
-    <div className="mt-4 customer-review ">
+    <div className="mt-5 customer-review ">
       <h3 className="review-heading">Customer Reviews: {reviews.length} </h3>
-      {reviews.map((review) => (
-        <Review key={review.id} review={review}></Review>
-      ))}
+      <div className="all-review my-5">
+        {reviews.slice(0, 2).map((review) => (
+          <Review key={review.id} review={review}></Review>
+        ))}
+      </div>
     </div>
   );
 };

@@ -6,9 +6,6 @@ import "./Home.css";
 
 const Home = () => {
   const [reviews, setReviews] = useCustomerReviews();
-  // console.log(reviews.length);
-  const newRev = [...reviews];
-  // console.log(newRev);
 
   let navigate = useNavigate();
 
@@ -37,9 +34,14 @@ const Home = () => {
         </div>
       </div>
       <div className="reviews-part">
-        {reviews.length > 0 ? <Reviews></Reviews> : "Not yet"}
+        <Reviews></Reviews>
+        {/* {reviews.slice(0, 2).map((review) => (
+          <Reviews></Reviews>
+        ))} */}
 
-        <button className="btn btn-info" onClick={() => navigate("/reviews")}>
+        <button
+          className="btn btn-info my-4"
+          onClick={() => navigate("/reviews")}>
           See All Reviews
         </button>
       </div>
