@@ -19,9 +19,7 @@ const Home = () => {
             Microsoft Surface series offers many products. It has many features
             than other brands.Removal keyboard and touch screen both of a great
             combination of this series. Microsoft Surface series is
-            <span className="text-info">
-              Stylish Outside, Savage Inside!
-            </span>{" "}
+            <span className="text-info">Stylish Outside, Savage Inside!</span>
           </p>
           <button className="btn">Live Demo</button>
         </div>

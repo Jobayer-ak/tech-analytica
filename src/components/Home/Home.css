@@ -11,6 +11,9 @@
 .description h1{
     font-size: 50px;
 }
+.description span{
+    margin-left: 5px;
+}
 .description .first-heading{
     color: green;
 
@@ -37,6 +40,7 @@
         font-size: 25px;
     }
 }
+
 @media screen and (max-width: 991px) {
     .description{
         margin-top: 30px;

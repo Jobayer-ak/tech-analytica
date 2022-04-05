@@ -15,7 +15,7 @@ const Reviews = () => {
       <h3 className="review-heading">Product Reviews: {reviews.length} </h3>
       <div className="all-review my-5">
         {/* conditional rendering */}
-        {currentPath === "/home"
+        {currentPath === "/home" || currentPath === "/"
           ? reviews
               .slice(0, 3)
               .map((review) => (
