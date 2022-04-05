@@ -12,7 +12,7 @@ const Reviews = () => {
 
   return (
     <div className="mt-5 customer-review ">
-      <h3 className="review-heading">Customer Reviews: {reviews.length} </h3>
+      <h3 className="review-heading">Product Reviews: {reviews.length} </h3>
       <div className="all-review my-5">
         {/* conditional rendering */}
         {currentPath === "/home"

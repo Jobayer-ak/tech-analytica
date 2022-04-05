@@ -24,3 +24,27 @@
 .btn:hover{
     background: rgb(188, 176, 176);
 }
+
+
+@media screen and (max-width: 576px) {
+    .description{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 5px 5px;
+        width: 100%;
+    }
+    .description h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .description{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 5px 5px;
+    }
+    .description h1{
+        font-size: 30px;
+    }
+    
+}

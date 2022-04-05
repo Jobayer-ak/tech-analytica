@@ -11,15 +11,17 @@ const Home = () => {
 
   return (
     <section>
-      <div className="d-flex justify-content-between">
-        <div className="description">
-          <h1 className="first-heading">Your Next Laptop</h1>
-          <h1 className="second-heading">Our Next Service</h1>
+      <div className="d-md-flex justify-content-between">
+        <div className="description text-md-center">
+          <h1 className="first-heading">Our Product</h1>
+          <h1 className="second-heading">Your Satisfaction</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
-            deleniti autem aut minus quaerat, ipsa nisi harum illum consectetur
-            veritatis dolorem? Labore dolorem minus quaerat necessitatibus autem
-            provident
+            Microsoft Surface series offers many products. It has many features
+            than other brands.Removal keyboard and touch screen both of a great
+            combination of this series. Microsoft Surface series is
+            <span className="text-info">
+              Stylish Outside, Savage Inside!
+            </span>{" "}
           </p>
           <button className="btn">Live Demo</button>
         </div>
