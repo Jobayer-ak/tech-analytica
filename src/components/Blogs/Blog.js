@@ -21,8 +21,7 @@ const Blogs = () => {
           readable way. HTML symantic tags help search engine and other user
           devices to determine the importance and context of web page. The pages
           made with symantic elements are much easier to read. It has huge
-          accessibility. It offers better user experience. Such as "<div></div>,{" "}
-          <span></span>, <article></article>, <aside></aside> and so on"
+          accessibility. It offers better user experience.
         </p>
       </div>
       <div className="q3 p-4">
