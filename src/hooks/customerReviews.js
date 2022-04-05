@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// custom hook
 const useCustomerReviews = () => {
   const [reviews, setReviews] = useState([]);
 

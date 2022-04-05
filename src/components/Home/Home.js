@@ -9,8 +9,6 @@ const Home = () => {
 
   let navigate = useNavigate();
 
-  const handleButton = () => {};
-
   return (
     <section>
       <div className="d-flex justify-content-between">
@@ -35,13 +33,8 @@ const Home = () => {
       </div>
       <div className="reviews-part">
         <Reviews></Reviews>
-        {/* {reviews.slice(0, 2).map((review) => (
-          <Reviews></Reviews>
-        ))} */}
 
-        <button
-          className="btn btn-info my-4"
-          onClick={() => navigate("/reviews")}>
+        <button className="btn mb-4" onClick={() => navigate("/reviews")}>
           See All Reviews
         </button>
       </div>

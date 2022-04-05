@@ -8,7 +8,7 @@ const Review = ({ review }) => {
       <img src={img} alt="" />
       <div className="card-body">
         <h5 className="card-title text-primary">{name}</h5>
-        <p>{rev}</p>
+        <p className="fst-italic">"{rev}"</p>
         <p>
           <small>Ratings: {ratings}</small>
         </p>
