@@ -1,13 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with (https://verdant-mermaid-2c74f9.netlify.app/).
+Live site link: (https://verdant-mermaid-2c74f9.netlify.app/).
 
-## Available Scripts
+## Short Description of Site
 
-In the project directory, you can run:
-
-### Short Descrition of site
-
-- npm start`
-
-*
+- `To create chart reacharts and axios are used`
+- `React Router`
+- `Using Hook and Custom Hook`
+- `Component, State, Conditional Rendering and so on...`
