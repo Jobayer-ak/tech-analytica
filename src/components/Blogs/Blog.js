@@ -21,7 +21,8 @@ const Blogs = () => {
           readable way. HTML symantic tags help search engine and other user
           devices to determine the importance and context of web page. The pages
           made with symantic elements are much easier to read. It has huge
-          accessibility. It offers better user experience.
+          accessibility. It offers better user experience. Such as "<div></div>,{" "}
+          <span></span>, <article></article>, <aside></aside> and so on"
         </p>
       </div>
       <div className="q3 p-4">
@@ -29,6 +30,12 @@ const Blogs = () => {
           What are the difference between inline block and inline block
           elements?
         </h4>
+        <p>
+          Ans: Inline-block elements take space what it is needed. But, block
+          elements take whole space. In inline-block elements i can give left
+          and right margin and padding but not top and bottom. In block element
+          left right top and bottom i can give margin and padding.
+        </p>
       </div>
     </div>
   );
